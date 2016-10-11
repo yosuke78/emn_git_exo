@@ -3,6 +3,7 @@ import unittest
 conversion_map = (
     ('x', 10),
     ('v', 5),
+    ('iv', 4),
     ('i', 1))
 
 
