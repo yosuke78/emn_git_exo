@@ -2,7 +2,12 @@ import unittest
 
 
 def ar2rom(val):
-    return 'i'
+    if val == 1:
+        return 'i'
+    elif val == 2:
+        return 'ii'
+    elif val == 3:
+        return 'iii'
 
 
 class Tests(unittest.TestCase):
