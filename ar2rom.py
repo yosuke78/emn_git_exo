@@ -26,6 +26,9 @@ class Tests(unittest.TestCase):
     def test_5_to_V(self):
         self.assertEqual(ar2rom(5), 'V')
 
+    def test_9_to_IX(self):
+	self.assertEqual(ar2rom(9), 'IX')
+
     def test_10_to_X(self):
         self.assertEqual(ar2rom(10), 'X')
 
