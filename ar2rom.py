@@ -1,11 +1,11 @@
 import unittest
 
 conversion_map = (
-    ('x', 10),
-    ('ix', 9),
-    ('v', 5),
-    ('iv', 4),
-    ('i', 1))
+    ('X', 10),
+    ('IX', 9),
+    ('V', 5),
+    ('IV', 4),
+    ('I', 1))
 
 
 def ar2rom(val):
@@ -34,7 +34,7 @@ class Tests(unittest.TestCase):
         self.assertEqual(ar2rom(5), 'V')
 
     def test_9_to_ix(self):
-        self.assertEqual(ar2rom(9), 'ix')
+        self.assertEqual(ar2rom(9), 'IX')
 
     def test_10_to_x(self):
         self.assertEqual(ar2rom(10), 'X')
